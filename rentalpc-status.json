@@ -1,19 +1,19 @@
 {
   "collector": {
     "consecutive_successful_missing_observations": 0,
-    "error_stage": null,
-    "healthy": true,
-    "last_attempt_at": "2026-10-10T20:30:01.109357Z",
+    "error_stage": "my_servers",
+    "healthy": false,
+    "last_attempt_at": "2026-10-10T21:00:01.091417Z",
     "last_success_at": "2026-10-10T20:30:02.539078Z",
     "marketplace_last_observed_at": "2026-10-10T20:30:02.539078Z",
-    "marketplace_ok": true,
-    "marketplace_stale": false,
-    "my_servers_ok": true,
+    "marketplace_ok": false,
+    "marketplace_stale": true,
+    "my_servers_ok": false,
     "server_last_observed_at": "2026-10-10T20:30:02.539078Z",
     "server_present_in_last_successful_response": true,
-    "server_state_stale": false
+    "server_state_stale": true
   },
-  "generated_at": "2026-10-10T20:30:02.539078Z",
+  "generated_at": "2026-10-10T21:00:30.164092Z",
   "observed_history": {
     "coverage_24h_pct": 79.1667,
     "coverage_30d_pct": 18.1944,
@@ -39,7 +39,7 @@
   },
   "recent_activity": {
     "current_observed_idle_seconds": null,
-    "current_observed_rental_seconds": 490694,
+    "current_observed_rental_seconds": null,
     "last_idle_period_seconds": null,
     "last_rental_ended_detected_at": null,
     "last_rental_started_detected_at": null
