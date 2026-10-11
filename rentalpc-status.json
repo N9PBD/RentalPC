@@ -3,28 +3,17 @@
     "consecutive_successful_missing_observations": 0,
     "error_stage": null,
     "healthy": true,
-    "last_attempt_at": "2026-10-11T16:52:40.942503Z",
-    "last_success_at": "2026-10-11T16:52:43.528012Z",
-    "marketplace_last_observed_at": "2026-10-11T16:52:43.528012Z",
+    "last_attempt_at": "2026-10-11T16:52:45.678446Z",
+    "last_success_at": "2026-10-11T16:52:47.062272Z",
+    "marketplace_last_observed_at": "2026-10-11T16:52:47.062272Z",
     "marketplace_ok": true,
     "marketplace_stale": false,
     "my_servers_ok": true,
-    "server_last_observed_at": "2026-10-11T16:52:43.528012Z",
+    "server_last_observed_at": "2026-10-11T16:52:47.062272Z",
     "server_present_in_last_successful_response": true,
     "server_state_stale": false
   },
-  "generated_at": "2026-10-11T16:52:43.528012Z",
-  "manual_contract_history": [
-    {
-      "applicability": "historical_only",
-      "confidence": "manual",
-      "confirmed_at": null,
-      "price_usd_day": 7.75,
-      "recorded_at": "2026-10-05T04:11:48.117809Z",
-      "source": "manual_seed",
-      "type": "on_demand"
-    }
-  ],
+  "generated_at": "2026-10-11T16:52:47.062272Z",
   "observed_history": {
     "coverage_24h_pct": 97.9167,
     "coverage_30d_pct": 20.9028,
@@ -49,34 +38,20 @@
     "utilization_7d_pct": 100.0
   },
   "recent_activity": {
-    "continuity_basis": "sampled_with_gaps",
     "current_observed_idle_seconds": null,
-    "current_observed_rental_seconds": 564055,
+    "current_observed_rental_seconds": 564058,
     "last_idle_period_seconds": null,
     "last_rental_ended_detected_at": null,
-    "last_rental_started_detected_at": null,
-    "observed_rented_since": "2026-10-05T04:11:48.117809Z"
+    "last_rental_started_detected_at": null
   },
   "rentalpc": {
     "active_contract": {
-      "continuity_known": false,
-      "detected_start_at": null,
-      "evidence": {
-        "config_observed_at": "2026-10-11T16:52:43.527942Z",
-        "contract_duration_seconds": null,
-        "contract_id_available": false,
-        "identity_status": "unavailable",
-        "observed_at": "2026-10-11T16:52:41.282566Z",
-        "price_reason": "verified",
-        "stale": false,
-        "type_confidence": "verified",
-        "type_reason": "verified",
-        "type_source": "api_server_config"
-      },
-      "price_confidence": "verified",
-      "price_source": "api_my_servers",
-      "price_usd_day": 8.5,
-      "start_detection_method": "unknown",
+      "continuity_known": true,
+      "detected_start_at": "2026-10-05T04:11:48.117809Z",
+      "price_confidence": "manual",
+      "price_source": "manual_seed",
+      "price_usd_day": 7.75,
+      "start_detection_method": "bootstrap_existing_rental",
       "true_start_at": null,
       "type": "on_demand"
     },
@@ -117,5 +92,5 @@
     "rented_hosts": 96,
     "total_peer_servers": 154
   },
-  "schema_version": 2
+  "schema_version": 1
 }
