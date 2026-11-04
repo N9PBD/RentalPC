@@ -3,9 +3,9 @@
     "consecutive_successful_missing_observations": 0,
     "error_stage": "my_servers",
     "healthy": false,
-    "last_attempt_at": "2026-11-04T15:30:00.729272Z",
+    "last_attempt_at": "2026-11-04T16:00:00.359057Z",
     "last_success_at": "2026-11-04T15:00:03.202758Z",
-    "marketplace_last_observed_at": "2026-11-04T15:30:02.131057Z",
+    "marketplace_last_observed_at": "2026-11-04T16:00:01.800041Z",
     "marketplace_ok": true,
     "marketplace_stale": false,
     "my_servers_ok": false,
@@ -13,7 +13,7 @@
     "server_present_in_last_successful_response": true,
     "server_state_stale": true
   },
-  "generated_at": "2026-11-04T15:30:02.131057Z",
+  "generated_at": "2026-11-04T16:00:01.800041Z",
   "manual_contract_history": [
     {
       "applicability": "historical_only",
@@ -26,18 +26,18 @@
     }
   ],
   "observed_history": {
-    "coverage_24h_pct": 85.4167,
+    "coverage_24h_pct": 81.25,
     "coverage_30d_pct": 95.625,
-    "coverage_7d_pct": 85.7143,
-    "covered_slots_24h": 41,
+    "coverage_7d_pct": 85.4167,
+    "covered_slots_24h": 39,
     "covered_slots_30d": 1377,
-    "covered_slots_7d": 288,
+    "covered_slots_7d": 287,
     "expected_samples_24h": 48,
     "expected_samples_30d": 1440,
     "expected_samples_7d": 336,
-    "successful_samples_24h": 41,
+    "successful_samples_24h": 39,
     "successful_samples_30d": 1381,
-    "successful_samples_7d": 288,
+    "successful_samples_7d": 287,
     "sufficient_history_24h": false,
     "sufficient_history_30d": false,
     "sufficient_history_7d": false,
@@ -98,23 +98,23 @@
     "available_current_ask": {
       "max_usd_day": 40.0,
       "median_usd_day": 15.0,
-      "min_usd_day": 6.4,
+      "min_usd_day": 5.79,
       "p25_usd_day": 10.94,
       "p75_usd_day": 18.0
     },
-    "available_hosts": 65,
+    "available_hosts": 68,
     "available_spot_median_usd_day": 15.0,
     "cohort": "1x RTX 4090",
     "rentalpc_on_demand_percentile": null,
     "rentalpc_on_demand_usd_day_at_comparison": null,
     "rented_host_current_ask": {
-      "max_usd_day": 16.85,
-      "median_usd_day": 6.75,
+      "max_usd_day": 10.94,
+      "median_usd_day": 6.9,
       "min_usd_day": 5.7,
-      "p25_usd_day": 6.3,
-      "p75_usd_day": 7.6425
+      "p25_usd_day": 6.4,
+      "p75_usd_day": 7.77
     },
-    "rented_hosts": 54,
+    "rented_hosts": 51,
     "total_peer_servers": 119
   },
   "schema_version": 2
