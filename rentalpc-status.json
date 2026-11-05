@@ -3,17 +3,17 @@
     "consecutive_successful_missing_observations": 0,
     "error_stage": null,
     "healthy": true,
-    "last_attempt_at": "2026-11-05T08:00:00.717968Z",
-    "last_success_at": "2026-11-05T08:00:02.112576Z",
-    "marketplace_last_observed_at": "2026-11-05T08:00:02.112576Z",
+    "last_attempt_at": "2026-11-05T08:30:00.732104Z",
+    "last_success_at": "2026-11-05T08:30:02.241749Z",
+    "marketplace_last_observed_at": "2026-11-05T08:30:02.241749Z",
     "marketplace_ok": true,
     "marketplace_stale": false,
     "my_servers_ok": true,
-    "server_last_observed_at": "2026-11-05T08:00:02.112576Z",
+    "server_last_observed_at": "2026-11-05T08:30:02.241749Z",
     "server_present_in_last_successful_response": true,
     "server_state_stale": false
   },
-  "generated_at": "2026-11-05T08:00:02.112576Z",
+  "generated_at": "2026-11-05T08:30:02.241749Z",
   "manual_contract_history": [
     {
       "applicability": "historical_only",
@@ -44,13 +44,13 @@
     "uptime_24h_pct": 100.0,
     "uptime_30d_pct": 100.0,
     "uptime_7d_pct": 100.0,
-    "utilization_24h_pct": 23.5294,
-    "utilization_30d_pct": 98.1091,
-    "utilization_7d_pct": 90.7473
+    "utilization_24h_pct": 20.5882,
+    "utilization_30d_pct": 98.0364,
+    "utilization_7d_pct": 90.3915
   },
   "recent_activity": {
     "continuity_basis": "unavailable",
-    "current_observed_idle_seconds": 44999,
+    "current_observed_idle_seconds": 46799,
     "current_observed_rental_seconds": null,
     "last_idle_period_seconds": null,
     "last_rental_ended_detected_at": "2026-11-04T19:30:02.645679Z",
@@ -76,25 +76,25 @@
   "rtx4090_market": {
     "available_current_ask": {
       "max_usd_day": 75.0,
-      "median_usd_day": 10.965,
+      "median_usd_day": 11.0,
       "min_usd_day": 6.5,
-      "p25_usd_day": 9.7425,
-      "p75_usd_day": 17.625
+      "p25_usd_day": 10.0,
+      "p75_usd_day": 18.0
     },
-    "available_hosts": 72,
-    "available_spot_median_usd_day": 10.94,
+    "available_hosts": 68,
+    "available_spot_median_usd_day": 10.965,
     "cohort": "1x RTX 4090",
-    "rentalpc_on_demand_percentile": 38.983050847457626,
+    "rentalpc_on_demand_percentile": 38.46153846153846,
     "rentalpc_on_demand_usd_day_at_comparison": 7.75,
     "rented_host_current_ask": {
       "max_usd_day": 16.5,
       "median_usd_day": 6.5,
       "min_usd_day": 5.49,
       "p25_usd_day": 6.3,
-      "p75_usd_day": 7.0375
+      "p75_usd_day": 7.05
     },
-    "rented_hosts": 46,
-    "total_peer_servers": 118
+    "rented_hosts": 49,
+    "total_peer_servers": 117
   },
   "schema_version": 2
 }
