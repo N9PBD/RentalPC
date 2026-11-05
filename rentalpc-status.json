@@ -3,17 +3,17 @@
     "consecutive_successful_missing_observations": 0,
     "error_stage": null,
     "healthy": true,
-    "last_attempt_at": "2026-11-05T04:00:00.717325Z",
-    "last_success_at": "2026-11-05T04:00:02.115867Z",
-    "marketplace_last_observed_at": "2026-11-05T04:00:02.115867Z",
+    "last_attempt_at": "2026-11-05T04:30:00.729951Z",
+    "last_success_at": "2026-11-05T04:30:02.173491Z",
+    "marketplace_last_observed_at": "2026-11-05T04:30:02.173491Z",
     "marketplace_ok": true,
     "marketplace_stale": false,
     "my_servers_ok": true,
-    "server_last_observed_at": "2026-11-05T04:00:02.115867Z",
+    "server_last_observed_at": "2026-11-05T04:30:02.173491Z",
     "server_present_in_last_successful_response": true,
     "server_state_stale": false
   },
-  "generated_at": "2026-11-05T04:00:02.115867Z",
+  "generated_at": "2026-11-05T04:30:02.173491Z",
   "manual_contract_history": [
     {
       "applicability": "historical_only",
@@ -44,13 +44,13 @@
     "uptime_24h_pct": 100.0,
     "uptime_30d_pct": 100.0,
     "uptime_7d_pct": 100.0,
-    "utilization_24h_pct": 47.0588,
-    "utilization_30d_pct": 98.6909,
-    "utilization_7d_pct": 93.5943
+    "utilization_24h_pct": 44.1176,
+    "utilization_30d_pct": 98.6182,
+    "utilization_7d_pct": 93.2384
   },
   "recent_activity": {
     "continuity_basis": "unavailable",
-    "current_observed_idle_seconds": 30599,
+    "current_observed_idle_seconds": 32399,
     "current_observed_rental_seconds": null,
     "last_idle_period_seconds": null,
     "last_rental_ended_detected_at": "2026-11-04T19:30:02.645679Z",
@@ -77,7 +77,7 @@
     "available_current_ask": {
       "max_usd_day": 75.0,
       "median_usd_day": 10.94,
-      "min_usd_day": 6.45,
+      "min_usd_day": 6.5,
       "p25_usd_day": 8.0,
       "p75_usd_day": 15.0
     },
@@ -89,9 +89,9 @@
     "rented_host_current_ask": {
       "max_usd_day": 10.0,
       "median_usd_day": 6.5,
-      "min_usd_day": 5.49,
-      "p25_usd_day": 6.125,
-      "p75_usd_day": 6.975
+      "min_usd_day": 5.79,
+      "p25_usd_day": 6.4,
+      "p75_usd_day": 7.0375
     },
     "rented_hosts": 42,
     "total_peer_servers": 120
