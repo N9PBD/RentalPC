@@ -3,17 +3,17 @@
     "consecutive_successful_missing_observations": 0,
     "error_stage": null,
     "healthy": true,
-    "last_attempt_at": "2026-11-06T19:00:00.713323Z",
-    "last_success_at": "2026-11-06T19:00:03.625290Z",
-    "marketplace_last_observed_at": "2026-11-06T19:00:03.625290Z",
+    "last_attempt_at": "2026-11-06T19:30:00.756161Z",
+    "last_success_at": "2026-11-06T19:30:03.179422Z",
+    "marketplace_last_observed_at": "2026-11-06T19:30:03.179422Z",
     "marketplace_ok": true,
     "marketplace_stale": false,
     "my_servers_ok": true,
-    "server_last_observed_at": "2026-11-06T19:00:03.625290Z",
+    "server_last_observed_at": "2026-11-06T19:30:03.179422Z",
     "server_present_in_last_successful_response": true,
     "server_state_stale": false
   },
-  "generated_at": "2026-11-06T19:00:03.625290Z",
+  "generated_at": "2026-11-06T19:30:03.179422Z",
   "manual_contract_history": [
     {
       "applicability": "historical_only",
@@ -28,16 +28,16 @@
   "observed_history": {
     "coverage_24h_pct": 100,
     "coverage_30d_pct": 95.1389,
-    "coverage_7d_pct": 91.6667,
-    "covered_slots_24h": 48,
+    "coverage_7d_pct": 91.9643,
+    "covered_slots_24h": 49,
     "covered_slots_30d": 1370,
-    "covered_slots_7d": 308,
+    "covered_slots_7d": 309,
     "expected_samples_24h": 48,
     "expected_samples_30d": 1440,
     "expected_samples_7d": 336,
-    "successful_samples_24h": 48,
+    "successful_samples_24h": 49,
     "successful_samples_30d": 1374,
-    "successful_samples_7d": 308,
+    "successful_samples_7d": 309,
     "sufficient_history_24h": true,
     "sufficient_history_30d": false,
     "sufficient_history_7d": false,
@@ -46,12 +46,12 @@
     "uptime_7d_pct": 100.0,
     "utilization_24h_pct": 100.0,
     "utilization_30d_pct": 97.5983,
-    "utilization_7d_pct": 89.2857
+    "utilization_7d_pct": 89.3204
   },
   "recent_activity": {
     "continuity_basis": "sampled",
     "current_observed_idle_seconds": null,
-    "current_observed_rental_seconds": 91801,
+    "current_observed_rental_seconds": 93601,
     "last_idle_period_seconds": 1799,
     "last_rental_ended_detected_at": "2026-11-05T17:00:02.146815Z",
     "last_rental_started_detected_at": "2026-11-05T17:30:01.803109Z",
@@ -62,11 +62,11 @@
       "continuity_known": false,
       "detected_start_at": null,
       "evidence": {
-        "config_observed_at": "2026-11-06T19:00:03.625193Z",
+        "config_observed_at": "2026-11-06T19:30:03.179345Z",
         "contract_duration_seconds": null,
         "contract_id_available": false,
         "identity_status": "unavailable",
-        "observed_at": "2026-11-06T19:00:01.393316Z",
+        "observed_at": "2026-11-06T19:30:01.012155Z",
         "price_reason": "verified",
         "stale": false,
         "type_confidence": "verified",
@@ -100,22 +100,22 @@
       "median_usd_day": 15.0,
       "min_usd_day": 7.0,
       "p25_usd_day": 10.94,
-      "p75_usd_day": 19.5
+      "p75_usd_day": 19.0
     },
-    "available_hosts": 66,
+    "available_hosts": 67,
     "available_spot_median_usd_day": 15.0,
     "cohort": "1x RTX 4090",
-    "rentalpc_on_demand_percentile": 37.1900826446281,
+    "rentalpc_on_demand_percentile": 37.39837398373984,
     "rentalpc_on_demand_usd_day_at_comparison": 7.75,
     "rented_host_current_ask": {
       "max_usd_day": 10.99,
-      "median_usd_day": 6.74,
+      "median_usd_day": 6.73,
       "min_usd_day": 5.79,
-      "p25_usd_day": 6.55,
-      "p75_usd_day": 7.82
+      "p25_usd_day": 6.5,
+      "p75_usd_day": 7.755000000000001
     },
-    "rented_hosts": 55,
-    "total_peer_servers": 121
+    "rented_hosts": 56,
+    "total_peer_servers": 123
   },
   "schema_version": 2
 }
