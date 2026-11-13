@@ -3,17 +3,17 @@
     "consecutive_successful_missing_observations": 0,
     "error_stage": null,
     "healthy": true,
-    "last_attempt_at": "2026-11-13T10:00:00.293981Z",
-    "last_success_at": "2026-11-13T10:00:02.764855Z",
-    "marketplace_last_observed_at": "2026-11-13T10:00:02.764855Z",
+    "last_attempt_at": "2026-11-13T10:30:00.295763Z",
+    "last_success_at": "2026-11-13T10:30:02.654984Z",
+    "marketplace_last_observed_at": "2026-11-13T10:30:02.654984Z",
     "marketplace_ok": true,
     "marketplace_stale": false,
     "my_servers_ok": true,
-    "server_last_observed_at": "2026-11-13T10:00:02.764855Z",
+    "server_last_observed_at": "2026-11-13T10:30:02.654984Z",
     "server_present_in_last_successful_response": true,
     "server_state_stale": false
   },
-  "generated_at": "2026-11-13T10:00:02.764855Z",
+  "generated_at": "2026-11-13T10:30:02.654984Z",
   "manual_contract_history": [
     {
       "applicability": "historical_only",
@@ -51,7 +51,7 @@
   "recent_activity": {
     "continuity_basis": "sampled_with_gaps",
     "current_observed_idle_seconds": null,
-    "current_observed_rental_seconds": 502199,
+    "current_observed_rental_seconds": 503999,
     "last_idle_period_seconds": 3601,
     "last_rental_ended_detected_at": "2026-11-07T13:30:02.082853Z",
     "last_rental_started_detected_at": "2026-11-07T14:30:03.187691Z",
@@ -62,23 +62,23 @@
       "continuity_known": false,
       "detected_start_at": null,
       "evidence": {
-        "config_observed_at": "2026-11-13T10:00:02.764776Z",
+        "config_observed_at": null,
         "contract_duration_seconds": null,
         "contract_id_available": false,
         "identity_status": "unavailable",
-        "observed_at": "2026-11-13T10:00:00.540862Z",
+        "observed_at": "2026-11-13T10:30:00.553526Z",
         "price_reason": "verified",
         "stale": false,
-        "type_confidence": "verified",
-        "type_reason": "verified",
-        "type_source": "api_server_config"
+        "type_confidence": "unavailable",
+        "type_reason": "configuration_unavailable",
+        "type_source": "unavailable"
       },
       "price_confidence": "verified",
       "price_source": "api_my_servers",
       "price_usd_day": 7.75,
       "start_detection_method": "unknown",
       "true_start_at": null,
-      "type": "on_demand"
+      "type": "unknown"
     },
     "connected": true,
     "listing": {
@@ -99,13 +99,13 @@
       "max_usd_day": 50.0,
       "median_usd_day": 10.94,
       "min_usd_day": 5.49,
-      "p25_usd_day": 8.0,
+      "p25_usd_day": 8.125,
       "p75_usd_day": 15.0
     },
-    "available_hosts": 89,
+    "available_hosts": 90,
     "available_spot_median_usd_day": 10.94,
     "cohort": "1x RTX 4090",
-    "rentalpc_on_demand_percentile": 27.586206896551722,
+    "rentalpc_on_demand_percentile": 27.35042735042735,
     "rentalpc_on_demand_usd_day_at_comparison": 7.75,
     "rented_host_current_ask": {
       "max_usd_day": 18.0,
@@ -115,7 +115,7 @@
       "p75_usd_day": 8.17
     },
     "rented_hosts": 27,
-    "total_peer_servers": 116
+    "total_peer_servers": 117
   },
   "schema_version": 2
 }
