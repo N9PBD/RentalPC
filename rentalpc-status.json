@@ -3,17 +3,17 @@
     "consecutive_successful_missing_observations": 0,
     "error_stage": null,
     "healthy": true,
-    "last_attempt_at": "2026-11-15T22:00:00.173957Z",
-    "last_success_at": "2026-11-15T22:00:01.796978Z",
-    "marketplace_last_observed_at": "2026-11-15T22:00:01.796978Z",
+    "last_attempt_at": "2026-11-15T22:30:00.157935Z",
+    "last_success_at": "2026-11-15T22:30:01.681824Z",
+    "marketplace_last_observed_at": "2026-11-15T22:30:01.681824Z",
     "marketplace_ok": true,
     "marketplace_stale": false,
     "my_servers_ok": true,
-    "server_last_observed_at": "2026-11-15T22:00:01.796978Z",
+    "server_last_observed_at": "2026-11-15T22:30:01.681824Z",
     "server_present_in_last_successful_response": true,
     "server_state_stale": false
   },
-  "generated_at": "2026-11-15T22:00:01.796978Z",
+  "generated_at": "2026-11-15T22:30:01.681824Z",
   "manual_contract_history": [
     {
       "applicability": "historical_only",
@@ -44,13 +44,13 @@
     "uptime_24h_pct": 100.0,
     "uptime_30d_pct": 100.0,
     "uptime_7d_pct": 100.0,
-    "utilization_24h_pct": 82.0513,
-    "utilization_30d_pct": 96.9186,
-    "utilization_7d_pct": 97.7778
+    "utilization_24h_pct": 79.4872,
+    "utilization_30d_pct": 96.8452,
+    "utilization_7d_pct": 97.4603
   },
   "recent_activity": {
     "continuity_basis": "unavailable",
-    "current_observed_idle_seconds": 10800,
+    "current_observed_idle_seconds": 12599,
     "current_observed_rental_seconds": null,
     "last_idle_period_seconds": 3601,
     "last_rental_ended_detected_at": "2026-11-15T19:00:01.686283Z",
