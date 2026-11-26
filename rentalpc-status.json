@@ -3,17 +3,17 @@
     "consecutive_successful_missing_observations": 0,
     "error_stage": null,
     "healthy": true,
-    "last_attempt_at": "2026-11-26T16:00:00.324756Z",
-    "last_success_at": "2026-11-26T16:00:02.706971Z",
-    "marketplace_last_observed_at": "2026-11-26T16:00:02.706971Z",
+    "last_attempt_at": "2026-11-26T16:30:00.286914Z",
+    "last_success_at": "2026-11-26T16:30:02.650390Z",
+    "marketplace_last_observed_at": "2026-11-26T16:30:02.650390Z",
     "marketplace_ok": true,
     "marketplace_stale": false,
     "my_servers_ok": true,
-    "server_last_observed_at": "2026-11-26T16:00:02.706971Z",
+    "server_last_observed_at": "2026-11-26T16:30:02.650390Z",
     "server_present_in_last_successful_response": true,
     "server_state_stale": false
   },
-  "generated_at": "2026-11-26T16:00:02.706971Z",
+  "generated_at": "2026-11-26T16:30:02.650390Z",
   "manual_contract_history": [
     {
       "applicability": "historical_only",
@@ -51,7 +51,7 @@
   "recent_activity": {
     "continuity_basis": "sampled",
     "current_observed_idle_seconds": null,
-    "current_observed_rental_seconds": 100799,
+    "current_observed_rental_seconds": 102599,
     "last_idle_period_seconds": 1800,
     "last_rental_ended_detected_at": "2026-11-25T11:30:01.758339Z",
     "last_rental_started_detected_at": "2026-11-25T12:00:02.748129Z",
@@ -62,11 +62,11 @@
       "continuity_known": false,
       "detected_start_at": null,
       "evidence": {
-        "config_observed_at": "2026-11-26T16:00:02.706896Z",
+        "config_observed_at": "2026-11-26T16:30:02.650310Z",
         "contract_duration_seconds": null,
         "contract_id_available": false,
         "identity_status": "unavailable",
-        "observed_at": "2026-11-26T16:00:00.589244Z",
+        "observed_at": "2026-11-26T16:30:00.528148Z",
         "price_reason": "verified",
         "stale": false,
         "type_confidence": "verified",
@@ -98,7 +98,7 @@
     "available_current_ask": {
       "max_usd_day": 50.0,
       "median_usd_day": 10.995000000000001,
-      "min_usd_day": 6.5,
+      "min_usd_day": 6.7,
       "p25_usd_day": 10.0,
       "p75_usd_day": 15.0
     },
