@@ -3,17 +3,17 @@
     "consecutive_successful_missing_observations": 0,
     "error_stage": null,
     "healthy": true,
-    "last_attempt_at": "2026-11-28T08:59:58.411316Z",
-    "last_success_at": "2026-11-28T08:59:59.842613Z",
-    "marketplace_last_observed_at": "2026-11-28T08:59:59.842613Z",
+    "last_attempt_at": "2026-11-28T09:30:00.312109Z",
+    "last_success_at": "2026-11-28T09:30:02.305158Z",
+    "marketplace_last_observed_at": "2026-11-28T09:30:02.305158Z",
     "marketplace_ok": true,
     "marketplace_stale": false,
     "my_servers_ok": true,
-    "server_last_observed_at": "2026-11-28T08:59:59.842613Z",
+    "server_last_observed_at": "2026-11-28T09:30:02.305158Z",
     "server_present_in_last_successful_response": true,
     "server_state_stale": false
   },
-  "generated_at": "2026-11-28T08:59:59.842613Z",
+  "generated_at": "2026-11-28T09:30:02.305158Z",
   "manual_contract_history": [
     {
       "applicability": "historical_only",
@@ -44,13 +44,13 @@
     "uptime_24h_pct": 100.0,
     "uptime_30d_pct": 99.9253,
     "uptime_7d_pct": 99.6875,
-    "utilization_24h_pct": 85.7143,
-    "utilization_30d_pct": 93.0545,
-    "utilization_7d_pct": 95.3125
+    "utilization_24h_pct": 83.6735,
+    "utilization_30d_pct": 92.9798,
+    "utilization_7d_pct": 95.0
   },
   "recent_activity": {
     "continuity_basis": "unavailable",
-    "current_observed_idle_seconds": 10797,
+    "current_observed_idle_seconds": 12600,
     "current_observed_rental_seconds": null,
     "last_idle_period_seconds": 1800,
     "last_rental_ended_detected_at": "2026-11-28T06:00:02.252950Z",
@@ -77,24 +77,24 @@
     "available_current_ask": {
       "max_usd_day": 50.0,
       "median_usd_day": 10.94,
-      "min_usd_day": 5.0,
+      "min_usd_day": 5.09,
       "p25_usd_day": 8.0,
       "p75_usd_day": 15.0
     },
     "available_hosts": 85,
     "available_spot_median_usd_day": 10.94,
     "cohort": "1x RTX 4090",
-    "rentalpc_on_demand_percentile": 32.432432432432435,
+    "rentalpc_on_demand_percentile": 34.78260869565217,
     "rentalpc_on_demand_usd_day_at_comparison": 7.75,
     "rented_host_current_ask": {
       "max_usd_day": 11.36,
-      "median_usd_day": 7.3100000000000005,
-      "min_usd_day": 5.79,
-      "p25_usd_day": 6.7125,
-      "p75_usd_day": 8.0
+      "median_usd_day": 6.895,
+      "min_usd_day": 0.1,
+      "p25_usd_day": 5.8425,
+      "p75_usd_day": 7.7675
     },
-    "rented_hosts": 26,
-    "total_peer_servers": 111
+    "rented_hosts": 30,
+    "total_peer_servers": 115
   },
   "schema_version": 2
 }
